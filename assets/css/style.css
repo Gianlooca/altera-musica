@@ -15,6 +15,15 @@ body {
     font-family: 'Libre Bodoni', serif;
 }
 
+header {
+    background-color: #fffff;
+}
+
+h1 {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: lighter;
+}
+
 main {
     flex: 1 0 auto;
 }
