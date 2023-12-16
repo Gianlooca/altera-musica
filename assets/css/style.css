@@ -16,6 +16,15 @@ body {
 }
 
 a {
+    background-color: inherit;
+    transition: background-color 0.4s;
+}
+
+a:hover {
+    background-color: gold;
+}
+
+a, a:visited {
     text-decoration: none;
 }
 
@@ -27,6 +36,11 @@ h1 {
     font-family: 'IM Fell DW Pica', serif;
     font-weight: lighter;
     text-align: center;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 1px;
 }
 
 main {
