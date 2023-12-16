@@ -16,12 +16,13 @@ body {
 }
 
 header {
-    background-color: #fffff;
+    background-color: #ffffff;
 }
 
 h1 {
     font-family: 'IM Fell DW Pica', serif;
     font-weight: lighter;
+    text-align: center;
 }
 
 main {
