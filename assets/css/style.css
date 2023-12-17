@@ -19,6 +19,7 @@ body {
 a {
     background-color: inherit;
     transition: background-color 0.4s;
+    color: #473e3e;
 }
 
 a:hover {
