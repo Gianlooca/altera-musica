@@ -54,6 +54,10 @@ h1 {
     letter-spacing: 1px;
 }
 
+.under-link {
+    border-bottom: 1px solid #473e3e;
+}
+
 main {
     flex: 1 0 auto;
 }
