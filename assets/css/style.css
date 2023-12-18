@@ -56,6 +56,12 @@ h1 {
     text-align: center;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    display: none;
+}
+
 #menu li {
     list-style-type: none;
 }
