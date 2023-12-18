@@ -34,8 +34,8 @@ header {
     background-color: #ffffff;
     padding: 4px 2rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
     width: 100%;
     z-index: 50;
     box-shadow: 0 2px 2px #473e3e;
@@ -43,7 +43,6 @@ header {
 
 header,
 footer {
-    flex: 0 0 auto;
     background-color: rgb(204, 204, 204);
     padding: 10px;
     border: 2px solid rgba(71, 62, 62, 0.3);
@@ -56,10 +55,28 @@ h1 {
     text-align: center;
 }
 
+#vinyl-icon {
+    vertical-align: super;
+}
+
+#cassette-icon {
+    vertical-align: super;
+}
+
+#space {
+    padding-left: 35px;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     display: none;
+}
+
+#navbar-toggle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 #menu li {
