@@ -30,7 +30,7 @@ a, a:visited {
     text-decoration: none;
 }
 
-header {
+/*header {
     background-color: #ccc;
     padding: 0 1rem;
     position: fixed;
@@ -41,7 +41,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     
-}
+}*/
 
 header a {
     text-decoration: none;
@@ -52,6 +52,21 @@ h1 {
     font-family: 'IM Fell DW Pica', serif;
     font-weight: lighter;
     text-align: center;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(204, 204, 204);
+    color: #473e3e;
+    /*width: 100%;*/
+    /*padding: 0 1rem;*/
+    /*display: none;*/
+    /*top: 100%;*/
 }
 
 .gen-menu {
@@ -70,17 +85,6 @@ h1 {
 
 #cassette-icon {
     vertical-align: super;
-}
-
-/* Navbar styles with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: rgb(204, 204, 204);
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    display: none;
-    top: 100%;
 }
 
 /* nav toggle */
