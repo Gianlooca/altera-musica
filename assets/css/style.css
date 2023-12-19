@@ -16,17 +16,8 @@ body {
     font-family: 'Libre Bodoni', serif;
 }
 
-a {
-    background-color: inherit;
-    transition: background-color 0.4s;
-    color: #473e3e;
-}
-
-a:hover {
-    background-color: gold;
-}
-
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
 }
 
@@ -43,10 +34,10 @@ a, a:visited {
     
 }*/
 
-header a {
+/*header a {
     text-decoration: none;
     color: inherit;
-}
+}*/
 
 h1 {
     font-family: 'IM Fell DW Pica', serif;
@@ -69,13 +60,27 @@ nav {
     /*top: 100%;*/
 }
 
+.general-nav {
+    background-color: rgb(186 192 185);
+    transition: background-color 0.4s;
+    color: #473e3e;
+}
+
+.dropdown {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.dropdown li:hover {
+    background-color: gold;
+}
+
 .gen-menu {
-    font-size: 110%;
-    letter-spacing: 4px;
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
