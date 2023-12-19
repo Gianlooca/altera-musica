@@ -54,7 +54,7 @@ h1 {
     text-align: center;
 }
 
-#menu {
+.gen-menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
