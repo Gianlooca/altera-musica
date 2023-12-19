@@ -54,16 +54,22 @@ h1 {
     text-align: center;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
 #vinyl-icon {
     vertical-align: super;
 }
 
 #cassette-icon {
     vertical-align: super;
-}
-
-#space {
-    padding-left: 35px;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -82,14 +88,8 @@ nav {
     display: block;
 }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-
-#menu > li {
-    margin-bottom: 1em;
+#navbar-toggle {
+    display: none;
 }
 
 .nav-toggle-label {
@@ -99,5 +99,5 @@ nav {
 
 main {
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 97px;
 }
